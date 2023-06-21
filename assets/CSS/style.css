@@ -1,0 +1,113 @@
+* {
+    margin:0%
+    
+}
+  
+header {
+    display:flex;
+    justify-content:space-between;
+    background-color: cadetblue;
+
+    
+}
+   
+.header h1 {
+    position:relative;
+    font-size: 50px;
+    padding: 50% 20% 5%;
+    width:500px;
+}
+   
+header ul {
+    display:flex;
+    justify-content:end;
+    font-size: 30px;
+    padding:50% 20% 5%;
+    width: 1000px;
+}
+
+.header li{
+    padding: 10px;
+}
+    
+.image {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.Offwork {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.aboutMe {
+    display:inline-flex;
+    justify-content: space-between;
+    Width: 25%;
+    Height: 20%;
+    
+
+}
+
+.aboutMe p {
+    width: full width;
+    background-color: chocolate;
+}
+.work { 
+    display:inline-flex;
+    justify-content: space-between;
+    width:25%;
+
+}
+
+.contact {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:25%;
+
+}
+
+h3 {
+    font-size: 30px;
+    border-right: solid black 3px;
+    padding:20px;
+    margin: 20px;
+}
+
+.main {
+    flex-grow: 1;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.contact ul {
+    display:inline-flex;  
+}
+.contact li {
+    padding:10px;
+}
+.work  ul{ 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+.image1 {
+flex-basis: 100%;
+background-color: pink;
+}
+
+
+.item{
+    flex-grow: 100% 50% 50% 50% 50% 50%;
+    flex-wrap: wrap;
+}
+
+
